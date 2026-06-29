@@ -25,9 +25,15 @@ public class FunctionalInterfaces {
         mult m=(a,b)->a*b;
 
         div d=(a,b)->a/b;
+
+        div di=(a,b)->a/b;
+
         System.out.println(add.addtion(89,900));
         System.out.println(s.sub(49,69));
         System.out.println(m.mul(50,100));
+        System.out.println(di.div(900,899));
+
+
     }
 
 }
