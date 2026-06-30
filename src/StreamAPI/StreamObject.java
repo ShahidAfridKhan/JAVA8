@@ -37,7 +37,10 @@ public class StreamObject {
         System.out.println();
         System.out.println(square);
 
-
+        numbers.stream()
+                .forEach(i->{
+                    System.out.println(i);
+                });
 
     }
 }

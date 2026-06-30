@@ -62,6 +62,19 @@ public class Operations {
                 .count();
         System.out.println(count);
 
+        //9.limit()
+        List <Integer> limit= list.stream()
+                .limit(2)
+                .collect(Collectors.toList());
+        System.out.println(limit);
+
+        //10.Skip
+        System.out.println(list.stream()
+                .skip(3)
+                .collect(Collectors.toList()));
+
+
+
 
     }
 }
