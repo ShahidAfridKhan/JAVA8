@@ -10,5 +10,6 @@ public class Predicate {
 
         Cal ad=(a,b)->a+b;
         System.out.println(ad.add(10,30));
+
     }
 }
